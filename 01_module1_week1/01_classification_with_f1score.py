@@ -21,7 +21,4 @@ def calculate_classification_metrics(tp: int, fp: int, fn: int):
 
 
 if __name__ == "__main__":
-    tp = 2
-    fp = 3
-    fn = 4
-    calculate_classification_metrics(tp, fp, fn)
+    calculate_classification_metrics(tp=2, fp=3, fn=5)
