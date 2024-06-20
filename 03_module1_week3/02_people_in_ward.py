@@ -26,8 +26,10 @@ class Student(Person):
         return self._yob
 
     def describe(self):
-        print(f"Student - Name: {self._name} -YoB: {self._yob} \
-              - Grade: {self._grade}")
+        print(
+            f"Student - Name: {self._name} -YoB: {self._yob} \
+              - Grade: {self._grade}"
+        )
 
 
 class Teacher(Person):
